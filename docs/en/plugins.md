@@ -16,11 +16,41 @@ model-launch section before selecting them inside a plugin.
 
 ## AI Music Clip Creator
 
+### Enable a plugin
+
+1. Open **AI Store**, review availability and subscription requirements.
+2. Enable the plugin, wait for its running state and open its workspace.
+3. Start compatible models in **Launch** first; enabling a plugin does not load model weights.
+
+![AI Store: creative plugins and their availability](../assets/guide-store-en.png)
+
+### Build a music video
+
+1. Create a project and upload your music track.
+2. Open **Settings and models**. Choose a ready H3/LTX model and optional storyboard LLM and timestamped ASR.
+3. Choose 5-second, 10-second or mixed segmentation, format and test resolution; save.
+
+![Music project: models, segmentation and format](../assets/guide-music-settings-en.png)
+
+4. Review lyrics/timing and generate or edit a storyboard.
+5. Select a scene, edit its prompt and generate one take before queueing the rest.
+6. Choose the desired take for each scene and export the clip with music.
+
+![Music project: library, timeline and scene prompt](../assets/guide-music-en.png)
+
 Upload a track, choose H3/LTX and optionally an LLM/ASR model. Review transcript
 and storyboard, use 5-second, 10-second or mixed scene lengths, and generate
 shots. Select takes and export. The final soundtrack is the original music.
 
 ## AI Ad Creator
+
+1. Create an advertising project and enter the product, audience, benefits and call to action.
+2. Upload a person/avatar and product photo, or prepare permitted assets with a running image model.
+3. Enter a script or use the selected LLM; review the scene breakdown.
+4. In project settings choose ready models and Reels/YouTube format, then save.
+5. Generate a short test, select scene takes and export after reviewing the advertisement.
+
+![Ad Creator: product brief, script and source assets](../assets/guide-ad-en.png)
 
 Provide a person/avatar photo, product photo and script or LLM brief. Supported
 image models can prepare assets or a combined reference frame. Inspect it before
@@ -28,6 +58,14 @@ video generation; product text, packaging and identity are not guaranteed.
 Choose Reels or YouTube format and export a finished advertising video.
 
 ## AI Film Creator
+
+1. Create a project, enter the story, characters and script, and start with 10–20 seconds.
+2. Choose the video model, format and segmentation in project settings; save.
+3. Assign scene references, edit prompts and generate a test take.
+4. If needed, synthesize dialogue with a running TTS model and position permitted music/effects.
+5. Review scene takes and audio timing, then export and download the assembled film.
+
+![Film Creator: story, continuity and scene/audio preparation](../assets/guide-film-en.png)
 
 Create a project up to 1,800 seconds, choose format/style and enter the story and
 characters. Split the script into short scenes, assign reference photos per
@@ -45,6 +83,12 @@ Films are assembled from many short generations, not one 30-minute request.
 Test a 10–20 second project before a long render.
 
 ## Projects, queues and automation
+
+1. Save before adding work to the queue. Check which job is active before adding a duplicate.
+2. To reuse an asset, name it in the shared character/product library and add it to the next project.
+3. After export, download the finished file; keep project data in persistent storage.
+4. For external automation, enable MCP, configure its own key and use the creative tools
+   to inspect project/job status before starting or retrying work. Do not give an external agent unrestricted credentials.
 
 Projects retain scenes, takes, source assets and exports in persistent storage.
 The shared character library copies assets into new projects so previous work

@@ -137,6 +137,9 @@ No license or account credentials are embedded in this repository.
 
 ## Documentation
 
+Every chapter includes numbered instructions and localized demonstration screenshots.
+Start with the [English guide](docs/en/README.md) or [Russian guide](docs/ru/README.md).
+
 - [Installation and first login — 8 illustrated steps](docs/en/installation.md)
 - [Model catalog, downloads and launch](docs/en/models.md)
 - [GPU assignment and memory](docs/en/gpu.md)

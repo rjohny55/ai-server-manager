@@ -118,7 +118,7 @@ initial password**, then select **Sign In**. This is not your website-account
 password. Change the initial password after signing in. No real password is
 shown in the screenshot.
 
-![Step 7: English panel sign-in form with username and password fields](../assets/login-en.png)
+![Step 7: English panel sign-in form with username and password fields](../assets/guide-login-en.png)
 
 ### 8. Verify the dashboard and GPUs
 
@@ -127,7 +127,7 @@ shows mock CMP 170HX and modified 20 GB CMP 50HX cards; it is not a benchmark or
 promise of your hardware's link speed. Test a small compatible model with one
 request before downloading large models.
 
-![Step 8: English blue-theme dashboard with demonstration GPU and resource data](../assets/dashboard-blue-en.png)
+![Step 8: English blue-theme dashboard with demonstration GPU and resource data](../assets/guide-overview-en.png)
 
 ## Keep image families separate
 
