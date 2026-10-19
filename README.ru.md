@@ -117,7 +117,7 @@ bash install.sh auto --download-only
 
 ## Документация
 
-- [Установка](docs/ru/installation.md)
+- [Установка и первый вход — 8 шагов со скриншотами](docs/ru/installation.md)
 - [Каталог и запуск моделей](docs/ru/models.md)
 - [GPU и память](docs/ru/gpu.md)
 - [Чат, агент и API](docs/ru/chat-api.md)

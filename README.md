@@ -133,7 +133,7 @@ No license or account credentials are embedded in this repository.
 
 ## Documentation
 
-- [Installation and first login](docs/en/installation.md)
+- [Installation and first login — 8 illustrated steps](docs/en/installation.md)
 - [Model catalog, downloads and launch](docs/en/models.md)
 - [GPU assignment and memory](docs/en/gpu.md)
 - [Chat, agent and application API](docs/en/chat-api.md)
