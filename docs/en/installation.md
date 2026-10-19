@@ -18,8 +18,9 @@ CPU offload requires free system RAM and still needs VRAM for computation.
 All screenshots below use **demonstration data**. The console images are
 illustrative English transcripts, not evidence of a real installation. Actual
 installer messages can be in Russian and vary by version. The personal-account
-screens show the actual interface with mock API responses; no real license was
-issued and no payment was made. The demo HWINFO, license, password and IP address
+screens are translated English documentation previews of the actual interface
+with mock API responses, not a deployed English-language site. No real license
+was issued and no payment was made. The demo HWINFO, license, password and IP address
 are deliberately unusable. **Use your own values, never those in the pictures.**
 
 ### 1. Download, review and start the installer in Ubuntu Server
@@ -59,21 +60,28 @@ own terminal without line breaks. HWINFO is used to request a license; it is
 ### 3. Paste HWINFO into your personal account
 
 Sign in to the [project website](https://ai-server-manager.ru/) and open your
-personal account (**Личный кабинет**) → **Тарифы**. Choose the plan and term;
-paste HWINFO into **Код оборудования** and select **Сгенерировать лицензию**.
-The following screen uses the site's Russian-language labels.
+**Personal account → Plans**. Choose the plan and term; paste HWINFO into
+**Hardware code** and select **Generate license**. These screenshots translate
+the labels for this guide; the live site may still show Russian labels.
 
-![Step 3: personal-account hardware-code field filled with a deliberately invalid demo HWINFO](../assets/install-03-account-hwinfo.png)
+For these English previews only, prices and balances are shown as approximate
+USD equivalents: **$1 = RUB 83.6177**, the Bank of Russia rate dated 17 October
+2026 and valid on 19 October 2026. RUB 1,000 / 3,000 / 10,000 become approximately
+$11.96 / $35.88 / $119.59. This does **not** change the live site's RUB pricing
+or payment currency; conversion fees and payment-provider rates can differ.
+[Exchange-rate source: Bank of Russia, as of 19 October 2026](https://www.cbr.ru/scripts/XML_daily.asp?date_req=19/10/2026).
+
+![Step 3: English personal-account demo with USD equivalents and a hardware-code field](../assets/install-03-account-hwinfo-en.png)
 
 ### 4. Obtain and copy the issued license
 
 Complete any payment or eligibility steps required by your selected plan. An
 unpaid license can display a masked key; do not paste that masked value into the
 installer. Once the complete key is available, copy the license value or the
-whole `LICENSE_SIGNATURE=...` line. **Ключ получен** marks the issued-key state
+whole `LICENSE_SIGNATURE=...` line. **Key received** marks the issued-key state
 shown below. Your website account is separate from the local panel's `admin`.
 
-![Step 4: personal account showing a demo license and the key-received state](../assets/install-04-account-license.png)
+![Step 4: English personal-account demo with USD equivalents and the key-received state](../assets/install-04-account-license-en.png)
 
 ### 5. Paste the license into the waiting installer
 
