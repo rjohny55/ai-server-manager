@@ -2,6 +2,9 @@
 
 [Guide](README.md) · [Русская версия](../ru/plugins.md)
 
+For the complete catalog of 19 implemented plugins and three separately marked
+planned entries, see the [plugin list](../../README.md#plugin-catalog).
+
 Enable supported plugins in AI Store and grant appropriate user permissions.
 Free/included plugins require the applicable subscription; **Business and
 Enterprise include Music Clip Creator, Ad Creator and Film Creator without an

@@ -32,6 +32,53 @@ a separate [Russian guide](docs/ru/README.md) is available.
 Features depend on the installed image, model format, hardware and license.
 Experimental presets are not a promise of successful inference on every GPU.
 
+## Interface preview
+
+English-language panel screens with **mock data**. GPU load, memory, models and
+server details are illustrative, not benchmark results. No production accounts,
+credentials or server addresses are shown.
+
+### Dashboard and GPU monitoring
+
+![English dashboard with demo resource charts, two CMP 170HX GPUs and a modified 20 GB CMP 50HX](docs/assets/dashboard-en.png)
+
+### Sign in
+
+![AI Server Manager sign-in screen in English](docs/assets/login-en.png)
+
+## Plugin catalog
+
+The catalog includes these **19 implemented plugins**. Availability and pricing
+depend on your subscription, installed build and each plugin's requirements;
+check AI Store in your panel for current access. Model weights are separate.
+
+| Plugin | Purpose |
+| --- | --- |
+| **MCP Server** | Connect external AI agents to supported server and model-management tools |
+| **Telegram Sentinel** | Remote server monitoring and control through a Telegram bot |
+| **Realtime Voice Agent** | Interactive voice conversations with speech recognition and synthesis |
+| **Cron Task Scheduler** | Scheduled tasks, model wake-ups, reports and maintenance |
+| **SecOps Pentest Agent** | Defensive security assistant with persistent knowledge and controlled integrations |
+| **Docker Manager** | Container status, logs, lifecycle actions and configuration |
+| **Level 0 Support AI** | First-line support workflows and knowledge-assisted answers |
+| **AI Chat Agent** | AI assistant with knowledge/RAG, web search and supported server tools |
+| **Server Messenger** | Server messaging, rooms, group conversations and direct messages |
+| **TG Commenter Pro** | AI-assisted Telegram commenting, accounts and schedules |
+| **AiSharkOCR** | Document recognition and structured parsing in Lite, Vision and Hybrid modes |
+| **Transcriber Agent** | Audio transcription, speaker diarization and LLM summaries |
+| **Object Detector** | Object detection and segmentation for images and cameras; custom training |
+| **LiveKit SIP** | SIP telephony and voice-agent call integration |
+| **AI Pearl Mining** | Mining runtime management, statistics, console and supported NVIDIA GPU tuning |
+| **AI Knowledge** | Shared knowledge bases, RAG, document versions and access permissions |
+| **AI Music Clip Creator** | Music-driven storyboards, scene generation and music-video export |
+| **AI Ad Creator** | Product/person references, advertising scripts and video export |
+| **AI Film Creator** | Short-film projects, scenes, dialogue, music, effects and export |
+
+**Planned / prototype catalog entries — not available as production plugins:**
+Crypto/Stock Trader Analyst, Media Factory and DevOps Toolkit.
+
+See the [plugin guide](docs/en/plugins.md) for setup and creative workflows.
+
 ## Creative plugins included in Business
 
 These plugins are included in **Business and Enterprise without an additional
