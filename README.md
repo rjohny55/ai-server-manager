@@ -38,13 +38,17 @@ English-language panel screens with **mock data**. GPU load, memory, models and
 server details are illustrative, not benchmark results. No production accounts,
 credentials or server addresses are shown.
 
-### Dashboard and GPU monitoring
-
-![English dashboard with demo resource charts, two CMP 170HX GPUs and a modified 20 GB CMP 50HX](docs/assets/dashboard-en.png)
-
 ### Sign in
 
 ![AI Server Manager sign-in screen in English](docs/assets/login-en.png)
+
+### Dashboard — blue theme
+
+![English dashboard in the blue theme with demo resource charts and GPU monitoring](docs/assets/dashboard-blue-en.png)
+
+### Dashboard — dark theme
+
+![English dashboard in the dark theme with two CMP 170HX GPUs and a modified 20 GB CMP 50HX](docs/assets/dashboard-en.png)
 
 ## Plugin catalog
 
