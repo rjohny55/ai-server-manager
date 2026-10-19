@@ -22,6 +22,23 @@ can represent a different physical GPU after visibility filtering.
 - Hipfire and media engines have their own supported placement strategies.
 - AMD Vulkan and ROCm are separate execution paths, not interchangeable flags.
 
+## Multi-server clusters and P2P
+
+Connect trusted worker servers through the panel's P2P/Workers functions to
+monitor remote GPUs and coordinate supported model deployments. llama.cpp RPC
+can distribute model layers across workers; vLLM/Ray provides supported
+multi-node inference configurations. A vLLM tensor-parallel launch on one
+worker is not, by itself, a multi-server deployment.
+
+Compatibility depends on the model, engine build, GPU topology and network.
+Prepare compatible runtimes and the required model files on participating
+nodes, and test a small workload first. Adding servers does not automatically
+pool all CPU, RAM or VRAM, or guarantee higher generation speed.
+
+P2P here means communication **between servers**, not GPU-to-GPU PCIe peer
+access. Use trusted nodes and protected network access; keep registration and
+control credentials private.
+
 ## Memory and offload
 
 Weights, KV cache, temporary activations, encoders and decoding can all consume

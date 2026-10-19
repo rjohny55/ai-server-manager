@@ -19,6 +19,10 @@ a separate [Russian guide](docs/ru/README.md) is available.
   such as 1Cat-vLLM, Hipfire and Strata in compatible image variants.
 - **Use NVIDIA or AMD GPUs:** automatic or manual GPU assignment, engine-specific
   multi-GPU placement and supported CPU/RAM offload modes.
+- **Cluster multiple servers over P2P:** connect trusted worker nodes, monitor
+  their GPUs and distribute model inference across servers using supported
+  llama.cpp RPC or vLLM/Ray multi-node configurations.
+  See [multi-server operation](docs/en/gpu.md#multi-server-clusters-and-p2p).
 - **Chat and work with an AI agent:** model conversations, supported tool calls,
   code previews and project workflows.
 - **Generate images and video:** supported FLUX Klein, Ideogram, Wan, MiniMax H3
