@@ -79,4 +79,3 @@
 Смежные руководства: [музыкальный клип с ИИ](https://ai-server-manager.ru/blog/kak-sozdat-muzykalnyj-klip-s-ii), [короткометражный фильм](https://ai-server-manager.ru/blog/kak-sozdat-film-s-ii) и [локальная генерация изображений](https://ai-server-manager.ru/blog/generaciya-izobrazhenij-lokalno-sdnq).
 
 Действия относятся к сборке 1.0.36 с доработками на октябрь 2026 года. Названия кнопок могут отличаться в более раннем образе. Иллюстрация выше показывает демонстрационный интерфейс, а не результаты генерации из этого примера.
-

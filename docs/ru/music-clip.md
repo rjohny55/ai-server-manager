@@ -73,4 +73,3 @@
 Дальше: [создание рекламы продукта](https://ai-server-manager.ru/blog/kak-sozdat-videoreklamu-produkta-s-ii) и [создание фильма](https://ai-server-manager.ru/blog/kak-sozdat-film-s-ii). Общие вопросы запуска разобраны в статье [о локальной генерации видео](https://ai-server-manager.ru/blog/generaciya-video-lokalno-wan-minimax-ltx).
 
 Действия относятся к сборке 1.0.36 с доработками на октябрь 2026 года. Названия кнопок могут отличаться в более раннем образе. Иллюстрация выше показывает демонстрационный интерфейс, а не результаты генерации из этого примера.
-
