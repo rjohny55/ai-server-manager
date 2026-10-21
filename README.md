@@ -146,6 +146,9 @@ Start with the [English guide](docs/en/README.md) or [Russian guide](docs/ru/REA
 - [Chat, agent and application API](docs/en/chat-api.md)
 - [Images, video, audio and 3D](docs/en/media.md)
 - [Plugins and creative projects](docs/en/plugins.md)
+- [Music video walkthrough](docs/en/music-clip.md)
+- [Product advertisement walkthrough](docs/en/ad-creator.md)
+- [Film and trailer walkthrough](docs/en/film-creator.md)
 - [Updates, licensing, backup and troubleshooting](docs/en/operations.md)
 - [Security and support](docs/en/security.md)
 

@@ -130,6 +130,9 @@ bash install.sh auto --download-only
 - [Чат, агент и API](docs/ru/chat-api.md)
 - [Изображения, видео, аудио и 3D](docs/ru/media.md)
 - [Плагины](docs/ru/plugins.md)
+- [Создание музыкального клипа](docs/ru/music-clip.md)
+- [Видеореклама продукта](docs/ru/ad-creator.md)
+- [Создание фильма и трейлера](docs/ru/film-creator.md)
 - [Обновления, лицензии и диагностика](docs/ru/operations.md)
 - [Безопасность и поддержка](docs/ru/security.md)
 

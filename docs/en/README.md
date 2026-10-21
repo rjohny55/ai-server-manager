@@ -14,6 +14,12 @@ or access to private source code is required.
 7. [Updates, licensing and troubleshooting](operations.md)
 8. [Security and support](security.md)
 
+## Creative walkthroughs
+
+- [AI Music Clip Creator](music-clip.md) — music, lyrics, references, takes and export.
+- [AI Ad Creator](ad-creator.md) — product brief, person/product photos and advertising scenes.
+- [AI Film Creator](film-creator.md) — story, cast, dialogue, sound and trailers.
+
 ## Start here
 
 1. Complete [installation and first login](installation.md), then change your initial password.

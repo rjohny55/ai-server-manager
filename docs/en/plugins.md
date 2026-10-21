@@ -14,6 +14,17 @@ Availability depends on the installed image build. Model weights are downloaded
 separately. Start the required video, image, language or speech models in the
 model-launch section before selecting them inside a plugin.
 
+Detailed walkthroughs with example briefs:
+
+- [Create a music video](music-clip.md)
+- [Create a product advertisement](ad-creator.md)
+- [Create a film and trailer](film-creator.md)
+
+The three workspaces share **Materials and script**, **Scenes and timeline**
+and **Export and results**. **Settings and models** contains connections and
+render settings. **Fill project with AI** prepares a sequential draft for review;
+apply it and save before rendering. Manual writing does not require an LLM.
+
 ## AI Music Clip Creator
 
 ### Enable a plugin
@@ -28,7 +39,7 @@ model-launch section before selecting them inside a plugin.
 
 1. Create a project and upload your music track.
 2. Open **Settings and models**. Choose a ready H3/LTX model and optional storyboard LLM and timestamped ASR.
-3. Choose 5-second, 10-second or mixed segmentation, format and test resolution; save.
+3. Choose 5/10/15-second shots, format and test resolution; save. LTX-2.5 also supports 20 seconds and the full random 5/10/15/20 selection.
 
 ![Music project: models, segmentation and format](../assets/guide-music-settings-en.png)
 
@@ -39,7 +50,7 @@ model-launch section before selecting them inside a plugin.
 ![Music project: library, timeline and scene prompt](../assets/guide-music-en.png)
 
 Upload a track, choose H3/LTX and optionally an LLM/ASR model. Review transcript
-and storyboard, use 5-second, 10-second or mixed scene lengths, and generate
+and storyboard, choose supported scene lengths, and generate
 shots. Select takes and export. The final soundtrack is the original music.
 
 ## AI Ad Creator
@@ -74,13 +85,26 @@ scene and edit shot prompts. H3 photo-conditioned shots require Ref2VA.
 For dialogue, select a running TTS model and voice and synthesize a line for the
 chosen scene. The line must fit the scene. Changing its text deselects the old
 speech asset without deleting it. TTS replaces that scene's audio; exact lip
-synchronization is not guaranteed, and the full pipeline does not synthesize
-dialogue automatically.
+synchronization is not guaranteed. In TTS mode, scene generation prepares missing
+speech before rendering; use manual synthesis first to check the measured length.
 
 Upload music, effects or recorded speech and place up to 32 audio inserts using
 start time, source offset, duration and volume. There is no automatic looping.
 Films are assembled from many short generations, not one 30-minute request.
 Test a 10–20 second project before a long render.
+
+Use explicit per-scene photo/previous-frame/no-reference settings to control
+continuity. Inspect the displayed reference before rendering. For music/ad
+projects, previous-frame continuation is off by default and replaces the normal
+reference from scene two onward when enabled. It can propagate artifacts.
+Changing an earlier take does not regenerate following scenes automatically.
+
+Pause a good take and **Save still frame** to the named library or download its
+PNG. Reuse it explicitly; capture does not change project assignments.
+
+For a trailer, select excerpts manually or use sampled-frame Vision analysis
+or temporal Marlin/SkyVision analysis with LLM planning. Add and review separate
+music, effects and narration before exporting. See the [film guide](film-creator.md).
 
 ## Projects, queues and automation
 
