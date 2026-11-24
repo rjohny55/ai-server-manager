@@ -17,7 +17,7 @@ for CMP50; native Hipfire weights are not generic GGUF files.
 
 - **llama.cpp:** compatible GGUF and all required shards; a compatible projector
   is needed for supported vision models.
-- **vLLM / 1Cat:** a supported checkpoint, tokenizer and configuration. Speculative
+- **vLLM:** a supported checkpoint, tokenizer and configuration. Speculative
   decoding may require a separate draft model.
 - **Hipfire:** a native compatible model package, not a renamed GGUF file.
 - **Strata:** the format and complete shard set required by its preset.
@@ -59,3 +59,15 @@ copied outside the application or to recover metadata.
 Long contexts, higher image resolution and concurrent requests increase memory
 requirements. Enable remote model code only for a repository you trust; this
 option executes code and does not fix an incompatible checkpoint.
+
+## Version 1.0.39 compatibility
+
+The LLM engine list now includes vLLM, llama.cpp, QEngine, Hipfire, Strata and
+Avalon. QEngine has separate engine downloads and compatible MTP/DFlash2/vision
+settings. Strata and Avalon need their own complete packages; long-context and
+hardware-specific profiles can remain experimental. See [all capabilities](features.md).
+
+For LTX-2.5, distinguish the ready SDNQ generation package from optional native
+BF16 components and DEV training weights. Missing native components do not
+require re-downloading a complete SDNQ package. Inspect the selected component
+set and file verification status, not only the overall byte count.

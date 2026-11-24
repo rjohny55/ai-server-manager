@@ -13,32 +13,47 @@ a separate [Russian guide](docs/ru/README.md) is available.
 
 ## What you can do
 
-- **Find and launch models:** a categorized catalog, downloads, hardware-aware
-  recommendations, saved launch settings and presets.
-- **Run local LLMs:** vLLM and llama.cpp, with additional experimental integrations
-  such as 1Cat-vLLM, Hipfire and Strata in compatible image variants.
-- **Use NVIDIA or AMD GPUs:** automatic or manual GPU assignment, engine-specific
-  multi-GPU placement and supported CPU/RAM offload modes.
-- **Cluster multiple servers over P2P:** connect trusted worker nodes, monitor
-  their GPUs and distribute model inference across servers using supported
-  llama.cpp RPC or vLLM/Ray multi-node configurations.
-  See [multi-server operation](docs/en/gpu.md#multi-server-clusters-and-p2p).
-- **Chat and work with an AI agent:** model conversations, supported tool calls,
-  code previews and project workflows.
-- **Generate images and video:** supported FLUX Klein, Ideogram, Wan, MiniMax H3
-  and LTX pipelines, with resolution presets, progress and saved results.
-- **Work with audio and 3D:** supported speech recognition, speech synthesis,
-  document/OCR plugins and specialized 3D workflows.
-- **Automate:** MCP, Telegram, scheduling, knowledge/RAG and other plugins.
-- **Operate your server:** monitoring, user permissions, API keys and a separate
-  updater with recovery access.
+**Panel version 1.0.39 · documentation updated 24 November 2026.**
+[Full capabilities](docs/en/features.md) · [Все возможности на русском](docs/ru/features.md)
 
-Features depend on the installed image, model format, hardware and license.
-Experimental presets are not a promise of successful inference on every GPU.
+- **Download and launch models:** categorized catalog, Hugging Face/ModelScope,
+  selected components, resumable downloads, file verification, saved launch presets.
+- **Choose an LLM engine:** vLLM, llama.cpp, QEngine, Hipfire, Strata or Avalon,
+  with engine-specific formats and hardware requirements. 1Cat has been removed
+  from the current offering.
+- **Tune inference:** context, KV cache, placement/offload and supported prefix
+  caching, CUDA Graphs, MTP or DFlash recipes. Long contexts require memory checks.
+- **Chat and build projects:** streaming responses, supported multimodal input,
+  coding tools, Linux commands/rg, revision-aware edits, subagents and loop guards.
+- **Inspect code and documents:** browser preview, manual editing, PDF/DOCX/XLSX/PPTX
+  reading, DOCX editing, and DOCX/PDF creation including multi-page PDF assembly.
+- **Use your knowledge:** agent-specific AI Knowledge access, OCR, compatible
+  embeddings/reranking and explicitly configured retrieval workflows.
+- **Create images, video and 3D:** compatible FLUX, Qwen Image, Ideogram, Wan,
+  MiniMax H3, LTX and TRELLIS.2 workflows, with saved outputs and project exports.
+- **Work with speech:** STT/TTS engines, Transcriber Agent summaries, Voice Agent
+  V1/V2 and experimental native Go V3, optional camera and personality settings.
+- **Create ads, films and music clips:** Lite/Pro workflows where supported,
+  scene/dialogue controls, character/product/place references and compatible LoRAs.
+- **Train compatible LTX adapters:** AI LoRA Trainer, prepared photo/video datasets
+  and reference-conditioned photo sets using a compatible image-generation model.
+- **Operate GPUs and workers:** automatic/manual GPU assignment, supported multi-GPU
+  and multi-server recipes, resource charts, model logs and controlled GPU Lab access.
+- **Integrate and automate:** scoped API keys, compatible application endpoints,
+  MCP, Telegram, schedules, LiveKit/SIP and permission-controlled plugins.
+- **Manage updates and access:** user roles, subscriptions and a separate updater
+  with recovery support.
+
+Features depend on the installed image, model format, hardware, license and
+permissions. Strata/Avalon routes, some long-context profiles, native H3 Turbo
+and Voice V3 require additional testing. Presets are not speed, quality or memory
+guarantees. Read the [compatibility notes](docs/en/features.md) before choosing.
 
 ## Interface preview
 
-English-language panel screens with **mock data**. GPU load, memory, models and
+Existing English-language demonstration screenshots are retained. They were
+captured before this documentation update and may differ from version 1.0.39.
+They show **mock data**. GPU load, memory, models and
 server details are illustrative, not benchmark results. No production accounts,
 credentials or server addresses are shown.
 
@@ -52,11 +67,11 @@ credentials or server addresses are shown.
 
 ### Dashboard — dark theme
 
-![English dashboard in the dark theme with two CMP 170HX GPUs and a modified 20 GB CMP 50HX](docs/assets/dashboard-en.png)
+![English dashboard in the dark theme with illustrative GPU monitoring](docs/assets/dashboard-en.png)
 
 ## Plugin catalog
 
-The catalog includes these **19 implemented plugins**. Availability and pricing
+The catalog includes these **21 implemented plugin entries**. Availability and pricing
 depend on your subscription, installed build and each plugin's requirements;
 check AI Store in your panel for current access. Model weights are separate.
 
@@ -73,7 +88,7 @@ check AI Store in your panel for current access. Model weights are separate.
 | **Server Messenger** | Server messaging, rooms, group conversations and direct messages |
 | **TG Commenter Pro** | AI-assisted Telegram commenting, accounts and schedules |
 | **AiSharkOCR** | Document recognition and structured parsing in Lite, Vision and Hybrid modes |
-| **Transcriber Agent** | Audio transcription, speaker diarization and LLM summaries |
+| **Transcriber Agent** | Transcripts and LLM summaries; speaker labels when supported by ASR |
 | **Object Detector** | Object detection and segmentation for images and cameras; custom training |
 | **LiveKit SIP** | SIP telephony and voice-agent call integration |
 | **AI Pearl Mining** | Mining runtime management, statistics, console and supported NVIDIA GPU tuning |
@@ -81,16 +96,18 @@ check AI Store in your panel for current access. Model weights are separate.
 | **AI Music Clip Creator** | Music-driven storyboards, scene generation and music-video export |
 | **AI Ad Creator** | Product/person references, advertising scripts and video export |
 | **AI Film Creator** | Short-film projects, scenes, dialogue, music, effects and export |
+| **AI LoRA Trainer** | Compatible LTX adapter training, datasets and adapter jobs |
+| **NeithOS GPU Lab** | Owner-authorized Hub diagnostics and GPU/container experiments |
 
 **Planned / prototype catalog entries — not available as production plugins:**
 Crypto/Stock Trader Analyst, Media Factory and DevOps Toolkit.
 
 See the [plugin guide](docs/en/plugins.md) for setup and creative workflows.
 
-## Creative plugins included in Business
+## Creative workflows and access
 
-These plugins are included in **Business and Enterprise without an additional
-plugin charge**:
+Creative workflows include the following. Check the current AI Store and plan
+for availability and pricing:
 
 | Plugin | Purpose |
 | --- | --- |

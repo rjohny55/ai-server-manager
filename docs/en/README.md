@@ -5,6 +5,8 @@
 For users of the packaged AI Server Manager application. No application build
 or access to private source code is required.
 
+**Version 1.0.39:** [complete capabilities and compatibility](features.md).
+
 1. [Installation and first login](installation.md)
 2. [Catalog, downloads and launching models](models.md)
 3. [GPU assignment and memory](gpu.md)

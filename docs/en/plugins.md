@@ -2,7 +2,7 @@
 
 [Guide](README.md) · [Русская версия](../ru/plugins.md)
 
-For the complete catalog of 19 implemented plugins and three separately marked
+For the complete catalog of 21 implemented plugin entries and three separately marked
 planned entries, see the [plugin list](../../README.md#plugin-catalog).
 
 Enable supported plugins in AI Store and grant appropriate user permissions.
@@ -126,3 +126,11 @@ not silently replayed; queued work can continue.
 Creative MCP tools support projects, settings, uploads, queues, cancellation and
 exports. Automation uses a separate MCP workspace; it does not grant access to
 another user's private projects. Keep MCP credentials in headers, never URLs.
+
+## Updated workflows in 1.0.39
+
+See [the complete capability reference](features.md) for Lite/Pro creative modes,
+scene/dialogue separation, identity and Ingredients adapter requirements,
+Voice V1/V2/V3, AI LoRA Trainer and NeithOS GPU Lab. Existing walkthrough
+screenshots remain demonstrations of an earlier interface; follow the current
+controls and compatibility checks when they differ.
